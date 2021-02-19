@@ -1,0 +1,194 @@
+/*lg*/
+@media (max-width: 1279.98px) {
+
+}
+/*md*/
+@media (max-width: 991.98px) {
+    body {
+        overflow-y: auto;
+    }
+    .header__phone {
+        font-size: 22px;
+    }
+    .pageone {
+        padding-top: 40px;
+    }
+    .pageone__title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .pageone__inner {
+        padding: 35px 0;
+        margin-bottom: 60px;
+    }
+    .pageone__text {
+        font-size: 22px;
+    }
+    .btn__start, .btn__next {
+        padding:15px 5px 17px 5px;
+        width: 295px;
+        font-size: 22px;
+    }
+    .pagetwo {
+        padding:40px 0;
+    }
+    .pagetwo__inner {
+        padding: 35px 0;
+        margin-bottom: 60px;
+    }
+    .pagetwo__question {
+        font-size: 22px;
+    }
+    .pagetwo__progress {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+    }
+    .pagetwo__checkbox {
+        font-size: 19px;
+    }
+    .check + label {
+        background-size: 30px 22px;
+    }
+    .check:checked + label {
+        background-size: 30px 22px;
+    }
+    .pagetwo__checkbox label {
+        padding: 5px 0 5px 40px;
+        margin-bottom: 20px;
+    }
+    .pagethree {
+        padding:30px 0;
+    }
+    .pagethree__title {
+        font-size: 23px;
+    }
+    .pagethree__inner {
+        margin-bottom: 30px;
+    }
+    .pagethree__result {
+        font-size: 22px;
+    }
+    .pagethree__text {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .pagethree__dev {
+        margin-bottom: 30px;
+        font-size: 23px;
+    }
+    .pagethree__demo {
+        margin-bottom: 30px;
+    }
+    .btn__result {
+        padding:13px 5px 14px 5px;
+        width: 280px;
+        font-size: 18px;
+    }
+    .btn__demo, .btn__invoice {
+        padding:15px 5px 17px 5px;
+        width: 295px;
+        font-size: 20px;
+    }
+}
+/*sm*/
+@media (max-width: 767.98px) {
+    .pagetwo__progress {
+        margin: 0 auto 30px;
+    }
+}
+/**/
+@media (max-width: 575.98px) {
+	
+}
+
+/*height*/
+@media (max-height:768px) {
+    .header {
+        padding:10px 0 10px;
+    }
+    .header__phone {
+        font-size: 20px;
+    }
+    .pageone {
+        padding-top: 30px;
+    }
+    .pageone__title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .pageone__inner {
+        padding: 35px 0;
+        margin-bottom: 50px;
+    }
+    .pageone__text {
+        font-size: 22px;
+    }
+    .btn__start, .btn__next {
+        padding:15px 5px 17px 5px;
+        width: 295px;
+        font-size: 22px;
+    }
+    .pagetwo {
+        padding:30px 0;
+    }
+    .pagetwo__inner {
+        padding: 35px 0;
+        margin-bottom: 50px;
+    }
+    .pagetwo__question {
+        font-size: 22px;
+    }
+    .pagetwo__progress {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+    }
+    .pagetwo__checkbox {
+        font-size: 19px;
+    }
+    .check + label {
+        background-size: 30px 22px;
+    }
+    .check:checked + label {
+        background-size: 30px 22px;
+    }
+    .pagetwo__checkbox label {
+        padding: 5px 0 5px 40px;
+        margin-bottom: 15px;
+    }
+    .pagethree {
+        padding:20px 0;
+    }
+    .pagethree__title {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .pagethree__inner {
+        margin-bottom: 30px;
+    }
+    .pagethree__result {
+        font-size: 22px;
+    }
+    .pagethree__text {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .pagethree__dev {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .pagethree__demo {
+        margin-bottom: 20px;
+    }
+    .btn__result {
+        padding:13px 5px 14px 5px;
+        width: 280px;
+        font-size: 18px;
+    }
+    .btn__demo, .btn__invoice {
+        padding:15px 5px 17px 5px;
+        width: 295px;
+        font-size: 20px;
+    }
+}
