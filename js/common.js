@@ -1,6 +1,6 @@
 $(function() {
     startTest();
-    popupAlert();
+    showNextbtn();
     nextQuestion();
 
     function startTest() {
@@ -10,16 +10,16 @@ $(function() {
         });
     }
 
+    function showNextbtn() {
+        $(document).on('click','input', function(){
+            $('.pagetwo__button').removeClass('disabled');
+        });
+    }
+
     function nextQuestion() {
         $(document).on('click', '.btn__next', function() {
             var quesNext = $(this).data('q');
             $('.pagetwo').find('q'+quesNext).removeClass('hidden');
-        });
-    }
-
-    function popupAlert() {
-        $(document).on('click', '.btn__next', function() {
-
         });
     }
 });

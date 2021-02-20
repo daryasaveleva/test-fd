@@ -96,6 +96,11 @@
     .pagetwo__progress {
         margin: 0 auto 30px;
     }
+    .pagetwo__progress {
+        width: 100px;
+        height: 100px;
+        margin-left: 0px;
+    }
 }
 /**/
 @media (max-width: 575.98px) {
@@ -140,8 +145,8 @@
         font-size: 22px;
     }
     .pagetwo__progress {
-        width: 200px;
-        height: 200px;
+        /* width: 200px;
+        height: 200px; */
         margin-left: 0px;
     }
     .pagetwo__checkbox {
